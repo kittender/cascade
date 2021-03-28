@@ -1,0 +1,16 @@
+{
+  "name": "cascade",
+  "version": "0.0.0",
+  "description": "A modern and flexible CSS framework.",
+  "dependencies": {
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "sass": "^1.32.8"
+  },
+  "scripts": {
+    "start": "sass cascade.scss cascade.css"
+  },
+  "author": "Mélina Donati",
+  "license": "MIT"
+}

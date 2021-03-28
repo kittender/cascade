@@ -1,0 +1,162 @@
+@import 'settings';
+
+@include only-phone {
+  .is-maxi-phone      { --space: #{$maxi};     }
+  .is-largest-phone   { --space: #{$largest};  }
+  .is-larger-phone    { --space: #{$larger};   }
+  .is-large-phone     { --space: #{$large};    }
+  .is-small-phone     { --space: #{$small};    }
+  .is-smaller-phone   { --space: #{$smaller};  }
+  .is-smallest-phone  { --space: #{$smallest}; }
+  .is-mini-phone      { --space: #{$mini};     }
+  
+  .is-2-phone  { --quantity: 2;   }
+  .is-3-phone  { --quantity: 3;   }
+  .is-4-phone  { --quantity: 4;   }
+  .is-5-phone  { --quantity: 5;   }
+  .is-6-phone  { --quantity: 6;   }
+  .is-7-phone  { --quantity: 7;   }
+  .is-8-phone  { --quantity: 8;   }
+  .is-9-phone  { --quantity: 9;   }
+  .is-10-phone { --quantity: 10;  }
+  .is-11-phone { --quantity: 11;  }
+  .is-12-phone { --quantity: 12;  }
+}
+
+@include only-tablet {
+  .is-maxi-tablet      { --space: #{$maxi};     }
+  .is-largest-tablet   { --space: #{$largest};  }
+  .is-larger-tablet    { --space: #{$larger};   }
+  .is-large-tablet     { --space: #{$large};    }
+  .is-small-tablet     { --space: #{$small};    }
+  .is-smaller-tablet   { --space: #{$smaller};  }
+  .is-smallest-tablet  { --space: #{$smallest}; }
+  .is-mini-tablet      { --space: #{$mini};     }
+  
+  .is-2-tablet  { --quantity: 2;   }
+  .is-3-tablet  { --quantity: 3;   }
+  .is-4-tablet  { --quantity: 4;   }
+  .is-5-tablet  { --quantity: 5;   }
+  .is-6-tablet  { --quantity: 6;   }
+  .is-7-tablet  { --quantity: 7;   }
+  .is-8-tablet  { --quantity: 8;   }
+  .is-9-tablet  { --quantity: 9;   }
+  .is-10-tablet { --quantity: 10;  }
+  .is-11-tablet { --quantity: 11;  }
+  .is-12-tablet { --quantity: 12;  }
+}
+
+@include only-portrait-tablet {
+  .is-maxi-ppad      { --space: #{$maxi};     }
+  .is-largest-ppad   { --space: #{$largest};  }
+  .is-larger-ppad    { --space: #{$larger};   }
+  .is-large-ppad     { --space: #{$large};    }
+  .is-small-ppad     { --space: #{$small};    }
+  .is-smaller-ppad   { --space: #{$smaller};  }
+  .is-smallest-ppad  { --space: #{$smallest}; }
+  .is-mini-ppad      { --space: #{$mini};     }
+  
+  .is-2-ppad  { --quantity: 2;   }
+  .is-3-ppad  { --quantity: 3;   }
+  .is-4-ppad  { --quantity: 4;   }
+  .is-5-ppad  { --quantity: 5;   }
+  .is-6-ppad  { --quantity: 6;   }
+  .is-7-ppad  { --quantity: 7;   }
+  .is-8-ppad  { --quantity: 8;   }
+  .is-9-ppad  { --quantity: 9;   }
+  .is-10-ppad { --quantity: 10;  }
+  .is-11-ppad { --quantity: 11;  }
+  .is-12-ppad { --quantity: 12;  }
+}
+
+@include only-landscape-tablet {
+  .is-maxi-lpad      { --space: #{$maxi};     }
+  .is-largest-lpad   { --space: #{$largest};  }
+  .is-larger-lpad    { --space: #{$larger};   }
+  .is-large-lpad     { --space: #{$large};    }
+  .is-small-lpad     { --space: #{$small};    }
+  .is-smaller-lpad   { --space: #{$smaller};  }
+  .is-smallest-lpad  { --space: #{$smallest}; }
+  .is-mini-lpad      { --space: #{$mini};     }
+  
+  .is-2-lpad  { --quantity: 2;   }
+  .is-3-lpad  { --quantity: 3;   }
+  .is-4-lpad  { --quantity: 4;   }
+  .is-5-lpad  { --quantity: 5;   }
+  .is-6-lpad  { --quantity: 6;   }
+  .is-7-lpad  { --quantity: 7;   }
+  .is-8-lpad  { --quantity: 8;   }
+  .is-9-lpad  { --quantity: 9;   }
+  .is-10-lpad { --quantity: 10;  }
+  .is-11-lpad { --quantity: 11;  }
+  .is-12-lpad { --quantity: 12;  }
+}
+
+@include only-desktop {
+  .is-maxi-dtop      { --space: #{$maxi};     }
+  .is-largest-dtop   { --space: #{$largest};  }
+  .is-larger-dtop    { --space: #{$larger};   }
+  .is-large-dtop     { --space: #{$large};    }
+  .is-small-dtop     { --space: #{$small};    }
+  .is-smaller-dtop   { --space: #{$smaller};  }
+  .is-smallest-dtop  { --space: #{$smallest}; }
+  .is-mini-dtop      { --space: #{$mini};     }
+  
+  .is-2-dtop  { --quantity: 2;   }
+  .is-3-dtop  { --quantity: 3;   }
+  .is-4-dtop  { --quantity: 4;   }
+  .is-5-dtop  { --quantity: 5;   }
+  .is-6-dtop  { --quantity: 6;   }
+  .is-7-dtop  { --quantity: 7;   }
+  .is-8-dtop  { --quantity: 8;   }
+  .is-9-dtop  { --quantity: 9;   }
+  .is-10-dtop { --quantity: 10;  }
+  .is-11-dtop { --quantity: 11;  }
+  .is-12-dtop { --quantity: 12;  }
+}
+
+@include only-medium-screens {
+  .is-maxi-mscreen      { --space: #{$maxi};     }
+  .is-largest-mscreen   { --space: #{$largest};  }
+  .is-larger-mscreen    { --space: #{$larger};   }
+  .is-large-mscreen     { --space: #{$large};    }
+  .is-small-mscreen     { --space: #{$small};    }
+  .is-smaller-mscreen   { --space: #{$smaller};  }
+  .is-smallest-mscreen  { --space: #{$smallest}; }
+  .is-mini-mscreen      { --space: #{$mini};     }
+  
+  .is-2-mscreens  { --quantity: 2;   }
+  .is-3-mscreens  { --quantity: 3;   }
+  .is-4-mscreens  { --quantity: 4;   }
+  .is-5-mscreens  { --quantity: 5;   }
+  .is-6-mscreens  { --quantity: 6;   }
+  .is-7-mscreens  { --quantity: 7;   }
+  .is-8-mscreens  { --quantity: 8;   }
+  .is-9-mscreens  { --quantity: 9;   }
+  .is-10-mscreens { --quantity: 10;  }
+  .is-11-mscreens { --quantity: 11;  }
+  .is-12-mscreens { --quantity: 12;  }
+}
+
+@include only-large-screens {
+  .is-maxi-lscreen      { --space: #{$maxi};     }
+  .is-largest-lscreen   { --space: #{$largest};  }
+  .is-larger-lscreen    { --space: #{$larger};   }
+  .is-large-lscreen     { --space: #{$large};    }
+  .is-small-lscreen     { --space: #{$small};    }
+  .is-smaller-lscreen   { --space: #{$smaller};  }
+  .is-smallest-lscreen  { --space: #{$smallest}; }
+  .is-mini-lscreen      { --space: #{$mini};     }
+  
+  .is-2-lscreen  { --quantity: 2;   }
+  .is-3-lscreen  { --quantity: 3;   }
+  .is-4-lscreen  { --quantity: 4;   }
+  .is-5-lscreen  { --quantity: 5;   }
+  .is-6-lscreen  { --quantity: 6;   }
+  .is-7-lscreen  { --quantity: 7;   }
+  .is-8-lscreen  { --quantity: 8;   }
+  .is-9-lscreen  { --quantity: 9;   }
+  .is-10-lscreen { --quantity: 10;  }
+  .is-11-lscreen { --quantity: 11;  }
+  .is-12-lscreen { --quantity: 12;  }
+}

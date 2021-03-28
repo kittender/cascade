@@ -1,0 +1,81 @@
+//! https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/
+$pad-begins: 600px;
+$widepad-begins: 900px;
+$screen-begins: 1200px;
+$widescreen-begins: 1800px;
+
+//---- Only ----------------------------
+
+@mixin only-phone {
+  @media screen and (max-width: $pad-begins - 1) {
+    @content;
+  }
+}
+
+@mixin only-tablet {
+  @media screen and (min-width: $pad-begins) and (max-width: $screen-begins - 1) {
+    @content;
+  }
+}
+
+@mixin only-portrait-tablet {
+  @media screen and (min-width: $pad-begins) and (max-width: $widepad-begins - 1) {
+    @content;
+  }
+}
+
+@mixin only-landscape-tablet {
+  @media screen and (min-width: $widepad-begins) and (max-width: $screen-begins - 1) {
+    @content;
+  }
+}
+
+@mixin only-desktop {
+  @media screen and (min-width: $screen-begins) {
+    @content;
+  }
+}
+
+@mixin only-medium-screens {
+  @media screen and (min-width: $screen-begins) and (max-width: $widescreen-begins - 1) {
+    @content;
+  }
+}
+
+@mixin only-large-screens {
+  @media screen and (min-width: $widescreen-begins) {
+    @content;
+  }
+}
+
+//---- Except ----------------------------
+
+@mixin except-phone {
+  @media screen and (min-width: $pad-begins) {
+    @content;
+  }
+}
+
+@mixin except-portrait-tablet-and-phone {
+  @media screen and (min-width: $widepad-begins) {
+    @content;
+  }
+}
+
+@mixin except-landscape-tablet-and-desktop {
+  @media screen and (max-width: $widepad-begins - 1) {
+    @content;
+  }
+}
+
+@mixin except-desktop {
+  @media screen and (max-width: $screen-begins - 1) {
+    @content;
+  }
+}
+
+@mixin except-large-screens {
+  @media screen and (max-width: $widescreen-begins - 1) {
+    @content;
+  }
+}

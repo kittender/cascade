@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Cascade, the CSS framework</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cascade.css">
+  <link rel="stylesheet" href="demo.css">
+</head>
+
+<body class="box is-maxi stack">
+
+  <header>
+    <h1>Cascade</h1>
+    <p>A modern and flexible CSS framework.</p>
+  </header>
+
+  <section>
+    <h2>Layout</h2>
+    <p>Box, stack, center, cluster, switcher concepts from <a href="https://every-layout.dev/">Every Layout</a>.</p>
+
+    <h3>Box</h3>
+    <div>
+      <p>To create a box context for content, use the <code>.box</code> class on the container.</p>
+      <p>The padding can be adjusted with <code>.is-<var>size</var></code> classes.</p>
+    </div>
+    <div class="box only-demo">
+      <div class="only-demo only-demo-fill"></div>
+    </div>
+
+    <h3>Media</h3>
+    <div>
+      <p>To create a media presentation for content, use the <code>.media</code> class on the container.</p>
+      <p>The gap can be adjusted with <code>.is-<var>size</var></code> classes.</p>
+    </div>
+    <div class="media only-demo-outline">
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+    </div>
+
+    <h3>Stack</h3>
+    <div>
+      <p>To get automatic vertical rythm, use the <code>.stack</code> class on the container.</p>
+      <p>The vertical spacing can be adjusted with <code>.is-<var>size</var></code> classes.</p>
+    </div>
+    <div class="stack only-demo-outline">
+      <div class="only-demo only-demo-fill"></div>
+      <div class="stack is-small only-demo">
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+      </div>
+      <div class="only-demo only-demo-fill"></div>
+    </div>
+
+    <h3>Center</h3>
+    <div>
+      <p>To create a center element, use the <code>.center</code> class on the element.</p>
+      <p>The max-width it can take is defined by the setting <code><var>$measure</var></code>.</p>
+    </div>
+    <div class="only-demo-outline">
+      <div class="center only-demo only-demo-fill"></div>
+    </div>
+
+    <h3>Cluster</h3>
+    <div>
+      <p>To get automatic horizontal rythm, use the <code>.cluster</code> class on the container, and add an intermediate container, like a simple <code>div</code>, to absorb horizontal margins.</p>
+      <p>The horizontal spacing between clustered elements can be adjusted with <code>.is-<var>size</var></code> classes.</p>
+    </div>
+    <div class="cluster only-demo-outline">
+      <div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+        <div class="only-demo only-demo-fill"></div>
+      </div>
+    </div>
+
+    <h3>Switcher</h3>
+    <div>
+      <p>To get automatic fluid columns, use the <code>.switcher</code> class on the container, and add an intermediate container, like a simple <code>div</code>, to absorb horizontal margins.</p>
+      <p>Define a max quantity of items beyond which it switches to vertical stack with <code>.has-<var>maxItems</var></code> classes, from 2 to 12.</p>
+      <p>The vertical spacing can be adjusted with <code>.is-<var>size</var></code> classes.</p>
+      <p>The threshold under which it always turns into stacked elements, is defined by the setting <code><var>$measure</var></code>.</p>
+    </div>
+    <div class="switcher has-3 only-demo-outline">
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+    </div>
+
+    <h3>Grid</h3>
+    <div>
+      <p>To create grid, use the <code>.grid</code> class on the container, and add an intermediate container, like a simple <code>div</code>, to absorb horizontal margins.</p>
+      <p>The quantity of columns can be set with <code>.is-<var>quantity</var></code> classes, from 2 to 12.</p>
+      </p>
+      <p>The gap can be adjusted with <code>.is-<var>size</var></code> classes.</p>
+    </div>
+    <div class="grid is-5 only-demo-outline">
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+
+      <div class="only-demo only-demo-fill"></div>
+      <div class="only-demo only-demo-fill"></div>
+    </div>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+@import 'settings';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  max-width: $measure;
+}
+
+html,
+body,
+div,
+span,
+header,
+nav,
+main,
+section,
+article,
+aside,
+footer {
+  max-width: none;
+}
+
+html {
+  font-family: $sans-serif;
+  font-size: calc(1rem + 0.5vw);
+  line-height: $ratio;
+}
+
+button {
+  font-size: inherit;
+}
+
+input {
+  font-size: inherit;
+}

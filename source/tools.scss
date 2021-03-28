@@ -1,0 +1,22 @@
+@import 'settings';
+
+.is-maxi      { --space: #{$maxi};     }
+.is-largest   { --space: #{$largest};  }
+.is-larger    { --space: #{$larger};   }
+.is-large     { --space: #{$large};    }
+.is-small     { --space: #{$small};    }
+.is-smaller   { --space: #{$smaller};  }
+.is-smallest  { --space: #{$smallest}; }
+.is-mini      { --space: #{$mini};     }
+  
+.is-2  { --quantity: 2;   }
+.is-3  { --quantity: 3;   }
+.is-4  { --quantity: 4;   }
+.is-5  { --quantity: 5;   }
+.is-6  { --quantity: 6;   }
+.is-7  { --quantity: 7;   }
+.is-8  { --quantity: 8;   }
+.is-9  { --quantity: 9;   }
+.is-10 { --quantity: 10;  }
+.is-11 { --quantity: 11;  }
+.is-12 { --quantity: 12;  }

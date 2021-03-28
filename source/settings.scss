@@ -1,0 +1,36 @@
+// Axioms
+$measure: 60ch;
+$ratio: 1.4;
+
+// Dimensions
+$size: 1rem;
+$medium: $size * $ratio;
+$large: $medium * $ratio;
+$larger: $large * $ratio;
+$largest: $larger * $ratio;
+$maxi: $largest * $ratio;
+$small: $size / $ratio;
+$smaller: $small / $ratio;
+$smallest: $smaller / $ratio;
+$mini: $smallest / $ratio;
+
+// Palette
+$primary: #1e90ff;
+$primary-text: #0000ff;
+$secondary: #00ced1;
+$secondary-text: #2f4f4f;
+$accent: #ff1493;
+$accent-text: #8b008b;
+
+// Tones
+$light: #f2f2f2;
+$light-text: #FFFFFF;
+$neutral: #dcdcdc;
+$neutral-text: #696969;
+$dark: #696969;
+$dark-text: #000000;
+
+// Typography
+$serif: Georgia, Bookman, Times, Times New Roman, serif;
+$sans-serif: Segoe, Segoe UI, MS Sans Serif, Arial, sans-serif;
+$monospace: Consolas, monaco, monospace;
